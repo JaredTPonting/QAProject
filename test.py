@@ -32,9 +32,9 @@ def test_function(entrys):
 
 root = tk.Tk()
 
-#bkImage = tk.PhotoImage(file = 'math.png')
-background_label = tk.Label(root)
-#background_label = tk.Label(root, image = bkImage)
+bkImage = tk.PhotoImage(file = 'math.png')
+#background_label = tk.Label(root)
+background_label = tk.Label(root, image = bkImage)
 background_label.place(relwidth=1,relheight=1)
 
 canvas = tk.Canvas(root, height=HEIGHT,width = WIDTH)
